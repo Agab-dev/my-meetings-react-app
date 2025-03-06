@@ -1,5 +1,12 @@
+import Navbar from "../components/Navbar";
+
 function NewMeetupPage() {
-  return <div>New Meetup Page</div>;
+  return (
+    <div>
+      <Navbar />
+      <h1>New Meetup Page</h1>
+    </div>
+  );
 }
 
 export default NewMeetupPage;

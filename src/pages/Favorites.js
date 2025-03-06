@@ -1,5 +1,11 @@
+import Navbar from "../components/Navbar";
 function Favorites() {
-  return <div>Favorites Page</div>;
+  return (
+    <div>
+      <Navbar />
+      <h1>Favorites Page</h1>
+    </div>
+  );
 }
 
 export default Favorites;
