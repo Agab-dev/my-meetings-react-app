@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  background-color: #222;
+}
+
+.logo {
+  color: #eee;
+  font-size: 18px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.link {
+  color: #eee;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px;
+  transition: 0.15s;
+}
+
+.link:hover {
+  color: #fdd;
+  font-size: 18px;
+}
