@@ -3,10 +3,10 @@ import styles from "./MainNavigation.module.css";
 
 function Navbar() {
   return (
-    <header>
-      <h1 className={styles.logo}>React Meetups</h1>
+    <header className={styles.header}>
+      <div className={styles.logo}>React Meetups</div>
       <nav>
-        <ul className={styles.nav}>
+        <ul>
           <li>
             <Link to={"/"} className={styles.link}>
               All Meetups
