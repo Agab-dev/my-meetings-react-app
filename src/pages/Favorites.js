@@ -7,14 +7,14 @@ function Favorites() {
   const favoritesCtx = useContext(FavoritesContext);
 
   return (
-    <div>
+    <section>
       <h1>Favorites Page</h1>
       {favoritesCtx.favorites.length > 0 ? (
         <MeetupList meetups={favoritesCtx.favorites} />
       ) : (
         <p>You got no favorites yet. Start adding some?</p>
       )}
-    </div>
+    </section>
   );
 }
 
